@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.card1 {
+  position: relative;
+  border: 2px solid #000;
+  height: 160px;
+  width: 100px;
+  z-index: 1;
+  background: gainsboro;
+}
+.card2 {
+  position: relative;
+  border: 2px solid #000;
+  height: 160px;
+  width: 100px;
+  z-index: 2;
+  top: 20px;
+  left: 40px;
+  float: left;
+  background: gainsboro;
+}
+.card3 {
+  position: relative;
+  border: 2px solid #000;
+  height: 160px;
+  width: 100px;
+  z-index: 3;
+  top: 20px;
+  left: 40px;
+  float: left;
+  background: gainsboro;
+}
+.card4 {
+  position: relative;
+  border: 2px solid #000;
+  height: 160px;
+  width: 100px;
+  z-index: 4;
+  top: 20px;
+  left: 40px;
+  float: left;
+  background: gainsboro;
+}
+.card5 {
+  position: relative;
+  border: 2px solid #000;
+  height: 160px;
+  width: 100px;
+  z-index: 5;
+  top: 20px;
+  left: 40px;
+  float: left;
+  background: gainsboro;
+}
+
+.container-card{
+
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.number {
+  font-size: 1.3em;
+  
+}
+
+.palo{
+  height: 10px;
+  width: 10px;
+  border: 1px solid red;
+  background: red;
+  transform: rotate(-45deg);
+  margin-top: 3px;
+  margin-left: 6px;
+}
+
+.card2 .container-card .number{
+  margin-left: 8px;
+}
+.card3 .container-card .number{
+  margin-left: 1px;
+}
+.card4 .container-card .number{
+  margin-left: 3px;
+}
+.card5 .container-card .number{
+  margin-left: 3px;
+}
+
